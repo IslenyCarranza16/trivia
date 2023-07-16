@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>MCQ Quiz</title>
+    <!-- Google Font -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Stylesheet -->
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div id="titulosiempre">
+ <div id="'tituloPrincipal"> TRIVIA DEVF</div>
+    </div>
+    <div class="start-screen">
+
+        <div class="input-field col s12">
+            <select id="dificultad" required>
+              <option value="0" disabled selected>Select Difficulty</option>
+              <option value="any">Any Difficulty</option>
+			        <option value="easy">Easy</option>
+			        <option value="medium">Medium</option>
+			        <option value="hard">Hard</option>
+            </select>
+            <select id="dificultad" required>
+              <option value="0" disabled selected>Select Category</option>
+              <option value="any">Any Category</option>
+			        <option value="9">General Knowledge</option>
+              <option value="10">Entertainment: Books</option>
+              <option value="11">Entertainment: Film</option>
+              <option value="12">Entertainment: Music</option>
+              <option value="13">Entertainment: Musicals &amp; Theatres</option>
+              <option value="14">Entertainment: Television</option>
+              <option value="15">Entertainment: Video Games</option>
+              <option value="16">Entertainment: Board Games</option>
+              <option value="17">Science &amp; Nature</option>
+              <option value="18">Science: Computers</option>
+              <option value="19">Science: Mathematics</option>
+              <option value="20">Mythology</option>
+              <option value="21">Sports</option>
+              <option value="22">Geography</option>
+              <option value="23">History</option>
+              <option value="24">Politics</option>
+              <option value="25">Art</option>
+              <option value="26">Celebrities</option>
+              <option value="27">Animals</option>
+              <option value="28">Vehicles</option>
+              <option value="29">Entertainment: Comics</option>
+              <option value="30">Science: Gadgets</option>
+              <option value="31">Entertainment: Japanese Anime &amp; Manga</option>
+              <option value="32">Entertainment: Cartoon &amp; Animations</option>	
+            </select>
+            <select id="dificultad" required>
+              <option value="0" disabled selected>Select Type</option>
+              <option value="any">Any Type</option>
+			        <option value="multiple">Multiple Choice</option>
+			        <option value="boolean">True / False</option>
+            </select>
+          </div>
+
+
+       
+      <button id="start-button">Start</button>
+    </div>
+    <div id="display-container" class="hide">
+      <div class="header">
+     <span>Responda la siguiente pregunta: </span>
+      </div>
+      <div id="container">
+        <!-- <div class="container-mid">
+
+        <p class="question">Aca pregunta 1: </p>
+        <button class="option-div" onclick="verificar(this)">Green</button>
+        <button class="option-div" onclick="verificar(this)">Yellow</button>
+         <button class="option-div" onclick="verificar(this)">black</button>
+          <button class="option-div" onclick="verificar(this)">orange</button>
+       
+
+        </div>
+        <div class="container-mid">
+
+            <p class="question">Aca pregunta2 : </p>
+            <button class="option-div" onclick="verificar(this)">moto</button>
+            <button class="option-div" onclick="verificar(this)">avion</button>
+             <button class="option-div" onclick="verificar(this)">bus</button>
+              <button class="option-div" onclick="verificar(this)">tren</button>
+    
+            </div>
+        
+            <div class="container-mid">
+
+                <p class="question">Aca pregunta 3: </p>
+                <button class="option-div" onclick="verificar(this)">manzana</button>
+                <button class="option-div" onclick="verificar(this)">uva</button>
+                 <button class="option-div" onclick="verificar(this)">pera</button>
+                  <button class="option-div" onclick="verificar(this)">naranja</button>
+        
+                </div> -->
+                
+        
+
+        <!-- questions and options will be displayed here -->
+      </div>
+      <button type="submit" id="next-button">Next</button>
+    </div>
+    <div class="score-container hide">
+      <div id="user-score">Demo Score</div>
+      <button id="restart">Restart</button>
+    </div>
+    <!-- Script -->
+    <script src="script.js"></script>
+  </body>
+</html>
